@@ -1,0 +1,45 @@
+{
+  "name": "phoenix-age",
+  "version": "0.1.0",
+  "description": "Text-based RPG Engine",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "test:watch": "jest --watch",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neolaw84/phoenix-age.git"
+  },
+  "keywords": [
+    "rpg",
+    "role",
+    "playing",
+    "game",
+    "text-based",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Edward L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neolaw84/phoenix-age/issues"
+  },
+  "homepage": "https://github.com/neolaw84/phoenix-age#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-jest": "^29.2.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
